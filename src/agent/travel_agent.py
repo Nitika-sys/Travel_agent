@@ -412,7 +412,6 @@ from {start_date} to {end_date}."""
     Food/Activities: ₹{800*days:,}
 
 {'='*60}
-Mode: Demo (Install Ollama or add Gemini key for AI features)
 """
         
         return {

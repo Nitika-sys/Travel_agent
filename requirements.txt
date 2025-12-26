@@ -1,17 +1,27 @@
-# LangChain and AI
-langchain==0.1.0
-langchain-openai==0.0.5
-langchain-community==0.0.20
-openai==1.10.0
-langchain-google-genai==0.0.6
+langchain==0.1.20
+langchain-core==0.1.52
+langchain-community==0.0.38
+
+# IMPORTANT: Add langchainhub (was missing!)
+langchainhub==0.1.15
+
+# Google Gemini (for Streamlit Cloud deployment)
+langchain-google-genai==1.0.1
+google-generativeai==0.3.2
+google-api-core==2.15.0
+
+# Streamlit
+streamlit==1.31.0
 
 # Web and API
 requests==2.31.0
+urllib3==2.1.0
 
-# Streamlit UI
-streamlit==1.31.0
+# Data Processing
+pandas==2.0.3
+numpy==1.24.3
 
 # Utilities
 python-dotenv==1.0.0
-pydantic==2.6.0
-
+pydantic==2.6.4
+pydantic-core==2.16.3
